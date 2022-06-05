@@ -25,14 +25,20 @@
     <!-- Шапка сайта -->
     <header class="header">
       <div class="container header__container">
-        <a class=logo link" href="index.html" lang="en">Web<span class="header--logo">Studio</span></a>
+        <a class="logo link" href="index.html" lang="en"
+          >Web<span class="header--logo">Studio</span></a
+        >
         <nav class="header-nav">
           <ul class="header-nav__list list">
-            <li class="header-nav__item list"><a href="./index.html" class="header-nav__link link active">Студия</a></li>
+            <li class="header-nav__item list">
+              <a href="./index.html" class="header-nav__link link active">Студия</a>
+            </li>
             <li class="header-nav__item list">
               <a href="./portfolio.html" class="header-nav__link link">Портфолио</a>
             </li>
-            <li class="header-nav__item list"><a href="" class="header-nav__link link">Контакты</a></li>
+            <li class="header-nav__item list">
+              <a href="" class="header-nav__link link">Контакты</a>
+            </li>
           </ul>
         </nav>
         <ul class="contacts list">
@@ -65,89 +71,88 @@
                 <svg class="close-btn" width="18" height="18">
                   <use href="./images/sprite.svg#close-black"></use>
                 </svg>
-              </button>          
+              </button>
 
-                <form class="form">
-                  <strong class="form__title">Оставьте свои данные, мы вам перезвоним</strong>
-                  <!-- name input -->
-                  
-                    <label class="form__label" for="user-name">
-                    <span class="form__text">Имя</span>
-                      <input
-                        type="text"
-                        name="user-name"
-                        id="user-name"
-                        class="form__input user-name"
-                        autocomplete="name"
-                        autofocus
-                      />
-                        <svg class="form__icon" width="12" height="12">
-                          <use href="./images/sprite.svg#user"></use>
-                        </svg>
-                    </label>       
+              <form class="form">
+                <strong class="form__title">Оставьте свои данные, мы вам перезвоним</strong>
+                <!-- name input -->
 
-                  <!-- tel input -->
-                  <label class="form__label" for="user-phone">
-                    <span class="form__text">Телефон</span>
-                      <input
-                        type="text"
-                        name="user-phone"
-                        id="user-phone"
-                        class="form__input"
-                        autocomplete="phone"
-                      />
-                        <svg class="form__icon" width="13" height="12">
-                          <use href="./images/sprite.svg#phone-user"></use>
-                        </svg>                             
-                    </label>   
+                <label class="form__label" for="user-name">
+                  <span class="form__text">Имя</span>
+                  <input
+                    type="text"
+                    name="user-name"
+                    id="user-name"
+                    class="form__input user-name"
+                    autocomplete="name"
+                    autofocus
+                  />
+                  <svg class="form__icon" width="12" height="12">
+                    <use href="./images/sprite.svg#user"></use>
+                  </svg>
+                </label>
 
-                  <!-- email input -->
-                  <label class="form__label" for="user-mail">
-                    <span class="form__text">Почта</span>
-                      <input
-                        type="text"
-                        name="user-mail"
-                        id="user-mail"
-                        class="form__input"
-                        autocomplete="mail"
-                      />                   
-                        <svg class="form__icon" width="15" height="12">
-                          <use href="./images/sprite.svg#mail-user"></use>
-                        </svg>                     
-                    </label>   
+                <!-- tel input -->
+                <label class="form__label" for="user-phone">
+                  <span class="form__text">Телефон</span>
+                  <input
+                    type="text"
+                    name="user-phone"
+                    id="user-phone"
+                    class="form__input"
+                    autocomplete="phone"
+                  />
+                  <svg class="form__icon" width="13" height="12">
+                    <use href="./images/sprite.svg#phone-user"></use>
+                  </svg>
+                </label>
 
-                  <!-- comment input -->
-                
-                    <label class="form__textarea" for="user-comment">Коментарий</label>
-                    <textarea
-                      class="form__comment"
-                      name="user-comment"
-                      id="user-comment"
-                      rows="6"
-                      placeholder="Введите текст"
-                    ></textarea> 
+                <!-- email input -->
+                <label class="form__label" for="user-mail">
+                  <span class="form__text">Почта</span>
+                  <input
+                    type="text"
+                    name="user-mail"
+                    id="user-mail"
+                    class="form__input"
+                    autocomplete="mail"
+                  />
+                  <svg class="form__icon" width="15" height="12">
+                    <use href="./images/sprite.svg#mail-user"></use>
+                  </svg>
+                </label>
 
-                  <!-- checkbox input -->
-                  
-                    <label class="form__checkbox" for="user-aggrement">
-                      <input
-                        class="checkbox visually-hidden"
-                        type="checkbox"
-                        name="user-aggrement"
-                        id="user-aggrement"
-                      />
-                      <span class="form-custom-checkbox">
-                        <svg class="form-custom-checkbox__icon" width="16" height="15">
-                          <use href="./images/sprite.svg#checkbox"></use>
-                        </svg>
-                      </span>
-                      <span class="form-custom-checkbox--desc">Соглашаюсь с рассылкой и принимаю</span>
-                      <a href="#" class="checkbox-link">Условия договора</a>                                   
-                    </label>
-                  
-                  <button type="submit" class="btn form-btn">Отправить</button>
-                </form>
-              </div>
+                <!-- comment input -->
+
+                <label class="form__textarea" for="user-comment">Коментарий</label>
+                <textarea
+                  class="form__comment"
+                  name="user-comment"
+                  id="user-comment"
+                  rows="6"
+                  placeholder="Введите текст"
+                ></textarea>
+
+                <!-- checkbox input -->
+
+                <label class="form__checkbox" for="user-aggrement">
+                  <input
+                    class="checkbox visually-hidden"
+                    type="checkbox"
+                    name="user-aggrement"
+                    id="user-aggrement"
+                  />
+                  <span class="form-custom-checkbox">
+                    <svg class="form-custom-checkbox__icon" width="16" height="15">
+                      <use href="./images/sprite.svg#checkbox"></use>
+                    </svg>
+                  </span>
+                  <span class="form-custom-checkbox--desc">Соглашаюсь с рассылкой и принимаю</span>
+                  <a href="#" class="checkbox-link">Условия договора</a>
+                </label>
+
+                <button type="submit" class="btn form-btn">Отправить</button>
+              </form>
             </div>
           </div>
           <button class="button hero__button" type="button" data-modal-open>Заказать услугу</button>
@@ -631,8 +636,14 @@
         <div class="newsletter">
           <p class="newsletter__subtitle">Подпишитесь на рассылку</p>
           <form class="newsletter__form">
-            <label class="newsletter__label" for="">
-              <input class="newsletter__input" type="email" name="newsletter" placeholder="E-mail" />
+            <label class="newsletter__label" for="email">
+              <input
+                class="newsletter__input"
+                type="email"
+                id="email"
+                name="newsletter"
+                placeholder="E-mail"
+              />
             </label>
             <button class="newsletter__btn" type="button">
               <span class="newsletter__text">Подписаться</span>

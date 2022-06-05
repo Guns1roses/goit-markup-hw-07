@@ -443,8 +443,8 @@ address {
   transition: fill var(--animation);
   cursor: pointer;
 }
-.form__input:hover + .icon-svg,
-.form__input:focus + .icon-svg {
+.form__input:hover + .form__icon,
+.form__input:focus + .form__icon {
   fill: var(--accent-text-color);
 }
 
