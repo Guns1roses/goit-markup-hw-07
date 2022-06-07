@@ -299,10 +299,10 @@ img {
   background-color: var(--accent-text-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  -webkit-transition: backgroud-color var(--animation), -webkit-box-shadow var(--animation);
-  transition: backgroud-color var(--animation), -webkit-box-shadow var(--animation);
-  transition: backgroud-color var(--animation), box-shadow var(--animation);
-  transition: backgroud-color var(--animation), box-shadow var(--animation), -webkit-box-shadow var(--animation);
+  -webkit-transition: background-color var(--animation), -webkit-box-shadow var(--animation);
+  transition: background-color var(--animation), -webkit-box-shadow var(--animation);
+  transition: background-color var(--animation), box-shadow var(--animation);
+  transition: background-color var(--animation), box-shadow var(--animation), -webkit-box-shadow var(--animation);
   border: none;
   border-radius: 4px;
   cursor: pointer;
