@@ -1044,6 +1044,17 @@ img {
   color: var(--accent-text-color);
 }
 
+.address__text {
+  color: #ffffff;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address__text:hover,
+.address__text:focus {
+  color: #2196F3;
+}
+
 .address__item {
   margin-bottom: 9px;
 }
