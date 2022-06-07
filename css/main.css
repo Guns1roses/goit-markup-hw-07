@@ -53,10 +53,6 @@ address {
   padding-bottom: 94px;
 }
 
-.link.active {
-  color: var(--accent-text-color);
-}
-
 h1,
 h2,
 h3,
@@ -454,6 +450,10 @@ img {
 }
 
 .header-nav__list .link .current {
+  color: var(--accent-text-color);
+}
+
+.link.active {
   color: var(--accent-text-color);
 }
 
